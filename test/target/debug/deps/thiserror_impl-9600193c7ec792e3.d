@@ -1,0 +1,12 @@
+/Users/tibor/Work/ABCH/WSoS/5.lesson/hands-on/turnstile-program/test/target/debug/deps/libthiserror_impl-9600193c7ec792e3.dylib: /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/lib.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/ast.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/attr.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/expand.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/fmt.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/generics.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/prop.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/valid.rs
+
+/Users/tibor/Work/ABCH/WSoS/5.lesson/hands-on/turnstile-program/test/target/debug/deps/thiserror_impl-9600193c7ec792e3.d: /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/lib.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/ast.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/attr.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/expand.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/fmt.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/generics.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/prop.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/valid.rs
+
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/lib.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/ast.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/attr.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/expand.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/fmt.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/generics.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/prop.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/valid.rs:

@@ -1,0 +1,44 @@
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("aes,crc,dit,dotprod,dpb,dpb2,fcma,fhm,flagm,fp,fp16,frintts,jsconv,lor,lse,neon,pan,pauth,pmuv3,ras,rcpc,rcpc2,rdm,sb,sha2,sha3,ssbs,v8.1a,v8.2a,v8.3a,v8.4a,vh")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "etc/hidapi/hidapi" "-Wall" "-Wextra" "-o" "/Users/tibor/Work/ABCH/WSoS/5.lesson/hands-on/turnstile-program/test/target/debug/build/hidapi-b0a71142059ad2b3/out/etc/hidapi/mac/hid.o" "-c" "etc/hidapi/mac/hid.c"
+cargo:warning=etc/hidapi/mac/hid.c:795:39: warning: 'kIOMasterPortDefault' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+cargo:warning=                        return IOServiceGetMatchingService(kIOMasterPortDefault, IORegistryEntryIDMatching(entry_id));
+cargo:warning=                                                           ^~~~~~~~~~~~~~~~~~~~
+cargo:warning=                                                           kIOMainPortDefault
+cargo:warning=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:123:19: note: 'kIOMasterPortDefault' has been explicitly marked deprecated here
+cargo:warning=const mach_port_t kIOMasterPortDefault
+cargo:warning=                  ^
+cargo:warning=etc/hidapi/mac/hid.c:800:34: warning: 'kIOMasterPortDefault' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+cargo:warning=                return IORegistryEntryFromPath(kIOMasterPortDefault, path);
+cargo:warning=                                               ^~~~~~~~~~~~~~~~~~~~
+cargo:warning=                                               kIOMainPortDefault
+cargo:warning=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:123:19: note: 'kIOMasterPortDefault' has been explicitly marked deprecated here
+cargo:warning=const mach_port_t kIOMasterPortDefault
+cargo:warning=                  ^
+cargo:warning=2 warnings generated.
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/tibor/Work/ABCH/WSoS/5.lesson/hands-on/turnstile-program/test/target/debug/build/hidapi-b0a71142059ad2b3/out/libhidapi.a" "/Users/tibor/Work/ABCH/WSoS/5.lesson/hands-on/turnstile-program/test/target/debug/build/hidapi-b0a71142059ad2b3/out/etc/hidapi/mac/hid.o"
+exit status: 0
+running: "ar" "s" "/Users/tibor/Work/ABCH/WSoS/5.lesson/hands-on/turnstile-program/test/target/debug/build/hidapi-b0a71142059ad2b3/out/libhidapi.a"
+exit status: 0
+cargo:rustc-link-lib=static=hidapi
+cargo:rustc-link-search=native=/Users/tibor/Work/ABCH/WSoS/5.lesson/hands-on/turnstile-program/test/target/debug/build/hidapi-b0a71142059ad2b3/out
+cargo:rustc-link-lib=framework=IOKit
+cargo:rustc-link-lib=framework=CoreFoundation
+cargo:rustc-link-lib=framework=AppKit

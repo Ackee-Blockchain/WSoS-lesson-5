@@ -1,0 +1,13 @@
+/Users/tibor/Work/ABCH/WSoS/5.lesson/tmp/turnstile-program/test/target/debug/deps/ansi_term-365cb471ae39fc28.rmeta: /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/lib.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/ansi.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/style.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/difference.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/display.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/write.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/windows.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/util.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/debug.rs
+
+/Users/tibor/Work/ABCH/WSoS/5.lesson/tmp/turnstile-program/test/target/debug/deps/ansi_term-365cb471ae39fc28.d: /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/lib.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/ansi.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/style.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/difference.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/display.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/write.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/windows.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/util.rs /Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/debug.rs
+
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/lib.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/ansi.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/style.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/difference.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/display.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/write.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/windows.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/util.rs:
+/Users/tibor/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.12.1/src/debug.rs:
