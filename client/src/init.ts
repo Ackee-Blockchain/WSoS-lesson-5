@@ -11,7 +11,7 @@ import {
 } from "./utils";
 
 const init = async () => {
-    const connection = new Connection("http://localhost:8899", "confirmed");
+    const connection = new Connection("http://127.0.0.1:8899", "confirmed");
     const turnstileProgramId = getProgramId();
     const initializer = getKeypair("initializer");
     const state = getKeypair("state");
@@ -20,23 +20,23 @@ const init = async () => {
         programId: turnstileProgramId,
         keys: [
             {
-                pubkey: state.publicKey, 
+                pubkey: state.publicKey,
                 isSigner: true,
                 isWritable: true,
             },
             {
-                pubkey: initializer.publicKey, 
+                pubkey: initializer.publicKey,
                 isSigner: true,
                 isWritable: true,
             },
             {
-                pubkey: SystemProgram.programId, 
+                pubkey: SystemProgram.programId,
                 isSigner: false,
                 isWritable: false,
             },
         ],
         data: Buffer.from(
-            Uint8Array.of(0, 1)    
+            Uint8Array.of(0, 1)
         ),
     });
 

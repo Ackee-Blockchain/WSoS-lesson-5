@@ -10,7 +10,7 @@ import {
 } from "./utils";
 
 const push = async () => {
-    const connection = new Connection("http://localhost:8899", "confirmed");
+    const connection = new Connection("http://127.0.0.1:8899", "confirmed");
     const turnstileProgramId = getProgramId();
     const state = getKeypair("state");
     const payer = getKeypair("initializer");
@@ -19,18 +19,18 @@ const push = async () => {
         programId: turnstileProgramId,
         keys: [
             {
-                pubkey: state.publicKey, 
+                pubkey: state.publicKey,
                 isSigner: false,
                 isWritable: true,
             },
             {
-                pubkey: payer.publicKey, 
+                pubkey: payer.publicKey,
                 isSigner: true,
                 isWritable: true,
             },
         ],
         data: Buffer.from(
-            Uint8Array.of(1)    
+            Uint8Array.of(1)
         ),
     });
 
